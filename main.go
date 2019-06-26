@@ -107,7 +107,7 @@ func main() {
 
 	pages := c/25 + 1
 
-	// great N workers to load and process
+	// lots of workers to load and process data fast
 	var wg sync.WaitGroup
 	for n := 0; n < 8; n++ {
 		wg.Add(1)
@@ -151,7 +151,7 @@ func main() {
 	for i := 1; i <= 12; i++ {
 		key := fmt.Sprintf("2019-%02d", i)
 		if stat, ok := statList[key]; ok {
-			fmt.Printf("%s: Total: %d, FO: %d, PCT: %0.2f%%\n", key, stat.count, stat.fo, float64(stat.fo)/float64(stat.count)*100)
+			fmt.Printf("%s: Total: % 3d, FO only: % 3d, PCT: %0.2f%%\n", key, stat.count, stat.fo, float64(stat.fo)/float64(stat.count)*100)
 		}
 	}
 }
