@@ -17,14 +17,19 @@ const (
 	baseUrl = "https://normandy.cdn.mozilla.net/api/v3/recipe/"
 )
 
+type stats struct {
+	count int
+	fo    int
+}
+
 var (
-	m            sync.Mutex
-	totalRecipes = 0
-	fObjectCount = 0
-	todo         chan string
+	m        sync.Mutex
+	statList map[string]*stats
+	todo     chan string
 )
 
 func init() {
+	statList = make(map[string]*stats)
 	todo = make(chan string, 10)
 }
 
@@ -64,6 +69,13 @@ func process(body []byte) error {
 			return
 		}
 
+		key := created[0:7]
+		stat, ok := statList[key]
+		if !ok { // create it if it doesn't exist
+			stat = &stats{}
+			statList[key] = stat
+		}
+
 		// an *exclusively* filter_object recipe should:
 		//   - extra_filter_expression should be ""
 		//   - filter_objects should have 1 or more elements
@@ -71,9 +83,9 @@ func process(body []byte) error {
 		extra, _ := jsonparser.GetString(value, "latest_revision", "extra_filter_expression")
 		fobjects, _, _, _ := jsonparser.Get(value, "latest_revision", "filter_object")
 
-		totalRecipes++
+		stat.count++
 		if len(extra) == 0 && len(fobjects) > 3 { // fobjects = []byte("[]") when empty
-			fObjectCount++
+			stat.fo++
 		}
 
 	}, "results")
@@ -135,5 +147,11 @@ func main() {
 
 	wg.Wait()
 
-	fmt.Printf("Total: %d, FO: %d, PCT: %0.2f%%\n", totalRecipes, fObjectCount, float64(fObjectCount)/float64(totalRecipes)*100)
+	// ugly way to print things in a sorted month order
+	for i := 1; i <= 12; i++ {
+		key := fmt.Sprintf("2019-%02d", i)
+		if stat, ok := statList[key]; ok {
+			fmt.Printf("%s: Total: %d, FO: %d, PCT: %0.2f%%\n", key, stat.count, stat.fo, float64(stat.fo)/float64(stat.count)*100)
+		}
+	}
 }
