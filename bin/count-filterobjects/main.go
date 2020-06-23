@@ -62,6 +62,12 @@ func process(body []byte) error {
 
 	jsonparser.ArrayEach(body, func(value []byte, dataType jsonparser.ValueType, offset int, err error) {
 
+		// Exclude heartbeat/console-log action types
+		actionType, _ := jsonparser.GetString(value, "latest_revision", "action", "name")
+		if actionType == "show-heartbeat" || actionType == "console-log" {
+			return
+		}
+
 		// only do 2019, 2020 records
 		created, err := jsonparser.GetString(value, "latest_revision", "updated")
 		if err != nil {
