@@ -18,8 +18,9 @@ const (
 )
 
 type stats struct {
-	count int
-	fo    int
+	count  int
+	usesFO int
+	onlyFO int
 }
 
 var (
@@ -84,8 +85,12 @@ func process(body []byte) error {
 		fobjects, _, _, _ := jsonparser.Get(value, "latest_revision", "filter_object")
 
 		stat.count++
+		if len(fobjects) > 3 {
+			stat.usesFO++
+		}
+
 		if len(extra) == 0 && len(fobjects) > 3 { // fobjects = []byte("[]") when empty
-			stat.fo++
+			stat.onlyFO++
 		}
 
 	}, "results")
@@ -152,7 +157,10 @@ func main() {
 		for m := 1; m <= 12; m++ {
 			key := fmt.Sprintf("%d-%02d", y, m)
 			if stat, ok := statList[key]; ok {
-				fmt.Printf("%s: Total: % 3d, FO only: % 3d, PCT: %0.2f%%\n", key, stat.count, stat.fo, float64(stat.fo)/float64(stat.count)*100)
+				fmt.Printf("%s: Total: % 3d, Has FO: % 3d (%6.2f%%), FO only: % 3d (%6.2f%%)\n", key,
+					stat.count,
+					stat.usesFO, float64(stat.usesFO)/float64(stat.count)*100,
+					stat.onlyFO, float64(stat.onlyFO)/float64(stat.count)*100)
 			}
 		}
 	}
