@@ -61,11 +61,11 @@ func process(body []byte) error {
 
 	jsonparser.ArrayEach(body, func(value []byte, dataType jsonparser.ValueType, offset int, err error) {
 
-		// only do 2019 records
+		// only do 2019, 2020 records
 		created, err := jsonparser.GetString(value, "latest_revision", "updated")
 		if err != nil {
 			fmt.Println("Iteration error", err.Error())
-		} else if !strings.Contains(created, "2019") {
+		} else if !strings.Contains(created, "2019") && !strings.Contains(created, "2020") {
 			return
 		}
 
@@ -148,10 +148,12 @@ func main() {
 	wg.Wait()
 
 	// ugly way to print things in a sorted month order
-	for i := 1; i <= 12; i++ {
-		key := fmt.Sprintf("2019-%02d", i)
-		if stat, ok := statList[key]; ok {
-			fmt.Printf("%s: Total: % 3d, FO only: % 3d, PCT: %0.2f%%\n", key, stat.count, stat.fo, float64(stat.fo)/float64(stat.count)*100)
+	for y := 2019; y <= 2020; y++ {
+		for m := 1; m <= 12; m++ {
+			key := fmt.Sprintf("%d-%02d", y, m)
+			if stat, ok := statList[key]; ok {
+				fmt.Printf("%s: Total: % 3d, FO only: % 3d, PCT: %0.2f%%\n", key, stat.count, stat.fo, float64(stat.fo)/float64(stat.count)*100)
+			}
 		}
 	}
 }
