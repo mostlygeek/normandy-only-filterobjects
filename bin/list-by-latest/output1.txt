@@ -1,0 +1,925 @@
+2020-06-30 982 show-heartbeat 
+2020-06-30 1008 branched-addon-study bug-1649504-addon-google-accounts-login-check-v2-release-75-78
+2020-06-30 1007 multi-preference-experiment bug-1647473-pref-measurement-of-tail-suggestions-and-user-typing-release-78-78
+2020-06-30 1006 preference-rollout bug-1622091-rollout-beta-rollout-of-samesite-lax-change-beta-79-81
+2020-06-30 986 multi-preference-experiment bug-1642402-pref-studying-os-reauthentication-success-rate-with-im-release-77-77
+2020-06-30 997 multi-preference-experiment bug-1646068-pref-activity-stream-pocket-new-tab-dynamic-video-card-sm-beta-78-79
+2020-06-30 967 preference-rollout bug-1636588-rollout-disable-the-os-authentication-feature-on-firef-release-76-77
+2020-06-30 989 multi-preference-experiment bug-1639968-pref-amazon-top-sites-tile-study-beta-78-79
+2020-06-30 999 multi-preference-experiment bug-1646076-pref-activity-stream-pocket-new-tab-popular-topics-smoke--beta-78-79
+2020-06-30 998 multi-preference-experiment bug-1646718-pref-understand-retention-impact-of-pdf-unknown-conten-release-77-78
+2020-06-29 974 multi-preference-experiment bug-1637631-pref-activity-stream-pocket-new-tab-de-layout-upgrade--release-76-77
+2020-06-25 1004 show-heartbeat 
+2020-06-25 1002 show-heartbeat 
+2020-06-24 1003 show-heartbeat 
+2020-06-24 1005 multi-preference-experiment bug-1648185-pref-activity-stream-pocket-new-tab-dynamic-video-card-sm-beta-78-79
+2020-06-23 1000 branched-addon-study bug-1644947-addon-google-accounts-login-check-release-75-77
+2020-06-23 978 multi-preference-experiment bug-1629108-pref-password-import-autocomplete-experiment-release-77-78
+2020-06-18 996 show-heartbeat 
+2020-06-18 995 show-heartbeat 
+2020-06-18 994 show-heartbeat 
+2020-06-18 993 show-heartbeat 
+2020-06-18 992 show-heartbeat 
+2020-06-18 991 show-heartbeat 
+2020-06-16 990 multi-preference-experiment bug-1643235-pref-high-velocity-message-testing-special-snippet-s-release-72-79
+2020-06-16 973 multi-preference-experiment bug-1638228-pref-baseline-strict-mode-by-default-retention-study-v-release-76-80
+2020-06-16 985 multi-preference-experiment bug-1634727-pref-activity-stream-pocket-new-tab-hero-layout-test-1-release-77-78
+2020-06-10 865 multi-preference-experiment pref-unimplemented-htmldocument-api-use-counters-in-beta-beta-71-bug-1591985
+2020-06-10 855 multi-preference-experiment pref-hold-back-experiment-for-whats-new-panel-release-70-71-bug-1590517
+2020-06-10 859 multi-preference-experiment pref-webrender-intel-performance-70-release-70-bug-1580917
+2020-06-10 884 multi-preference-experiment pref-reduce-snippets-update-interval-down-to-1-hour-from-beta-71-72-bug-1595007
+2020-06-10 843 multi-preference-experiment multi-preference-experiment-stub-attribution-test-1571777
+2020-06-10 965 multi-preference-experiment bug-1633652-pref-baseline-strict-mode-by-default-retention-study-release-76-80
+2020-06-10 984 multi-preference-experiment bug-1636591-pref-devtools-experiment-prevent-accidental-use-of-f12-beta-78-78
+2020-06-09 988 preference-rollout bug-1644469-rollout-revert-user-editortruncate_user_pastes-release-77-77
+2020-06-09 987 preference-rollout bug-1630682-rollout-blocklist-v3-beta-rollout-beta-78-78
+2020-06-09 983 show-heartbeat 
+2020-06-09 977 multi-preference-experiment bug-1640947-pref-search-north-star-metric-observation-release-76-77
+2020-06-09 980 multi-preference-experiment bug-1635687-pref-telemetry-calibration-experiment-release-76-78
+2020-06-09 930 multi-preference-experiment bug-1622934-pref-webrender-continued-v2-nightly-only-nightly-76-80
+2020-06-02 979 preference-rollout bug-1642682-rollout-activity-stream-story-collection-dismiss-prefe-release-75-79
+2020-06-02 968 multi-preference-experiment bug-1623382-pref-enable-service-worker-debugging-on-devedition-beta-77-78
+2020-06-02 975 multi-preference-experiment bug-1637304-pref-activity-stream-pocket-new-tab-story-spocs-in-ca--release-76-77
+2020-06-02 976 multi-preference-experiment bug-1639253-pref-activity-stream-pocket-new-tab-uk-release-experim-release-76-77
+2020-05-28 938 preference-rollout bug-1622873-rollout-activity-stream-pocket-new-tab-experiments-org-release-75-76
+2020-05-23 970 show-heartbeat 
+2020-05-23 972 show-heartbeat 
+2020-05-23 971 show-heartbeat 
+2020-05-22 969 show-heartbeat 
+2020-05-20 962 multi-preference-experiment bug-1634771-pref-activity-stream-pocket-new-tab-newsletter-signup-smo-beta-76-78
+2020-05-20 961 messaging-experiment bug-1636202-message-normandy-message-delivery-aa-nightly-77-78
+2020-05-20 963 multi-preference-experiment bug-1634769-pref-activity-stream-pocket-new-tab-hero-layout-smoke-tes-beta-77-78
+2020-05-20 964 multi-preference-experiment bug-1633672-pref-activity-stream-pocket-new-tab-personalization-v2-release-76-77
+2020-05-20 966 branched-addon-study bug-1635674-addon-https-upgrade-study-v2-release-75-77
+2020-05-12 917 preference-rollout rollout-doh-us-staged-rollout-to-all-us-desktop-users-release-73-77-bug-1586331
+2020-05-06 960 messaging-experiment bug-1635528-message-recommend-picture-in-picture-cfr-normandy-beta-77-77
+2020-05-01 959 show-heartbeat 
+2020-05-01 957 show-heartbeat 
+2020-05-01 953 show-heartbeat 
+2020-05-01 955 show-heartbeat 
+2020-05-01 951 show-heartbeat 
+2020-05-01 958 multi-preference-experiment prefflip-privacy-messaging-message-4-1631129
+2020-05-01 956 show-heartbeat 
+2020-05-01 954 show-heartbeat 
+2020-05-01 952 show-heartbeat 
+2020-04-29 950 show-heartbeat 
+2020-04-29 947 show-heartbeat 
+2020-04-28 948 show-heartbeat 
+2020-04-28 946 show-heartbeat 
+2020-04-28 945 multi-preference-experiment bug-1633545-pref-duplicate-enrollment-test-for-search-release-75-76
+2020-04-23 943 show-heartbeat 
+2020-04-21 937 multi-preference-experiment bug-1619686-pref-activity-stream-pocket-new-tab-story-card-collect-release-75-76
+2020-04-21 941 branched-addon-study bug-1623996-addon-https-upgrade-study-release-75-76
+2020-04-21 942 multi-preference-experiment bug-1621834-pref-activity-stream-do-no-harm-experiment-for-simplif-release-75-76
+2020-04-16 944 preference-rollout bug-1630202-rollout-re-enable-layoutcssserialize-grid-implicit-t-release-75-75
+2020-04-09 940 show-heartbeat 
+2020-04-08 939 show-heartbeat 
+2020-04-08 931 multi-preference-experiment pref-experiment-pi-507-test
+2020-04-03 934 show-heartbeat 
+2020-04-03 933 show-heartbeat 
+2020-04-03 936 preference-experiment prefflip-messaging-effects-c2-1625847
+2020-04-03 935 preference-experiment prefflip-messaging-effects-c1-1625847
+2020-04-02 932 multi-preference-experiment bug-1626481-pref-feature-impact-study-for-enhanced-tracking-protec-release-72-80
+2020-03-31 927 multi-preference-experiment pref-activity-stream-chrome-switchers-card-for-onboard-release-73-75-bug-1623115
+2020-03-24 926 multi-preference-experiment pref-activity-stream-pocket-new-tab-story-card-collection-75-beta-smok-75-75-bug-1619685
+2020-03-24 922 multi-preference-experiment pref-activity-stream-password-import-cfr-release-74-74-bug-1617735
+2020-03-24 929 show-heartbeat 
+2020-03-19 928 preference-rollout rollout-revert-tls-10-11-deprecation-in-release-74-release-74-74-bug-1623649
+2020-03-17 920 preference-rollout rollout-increasing-normandy-skew-out-changes-from-15-m-release-73-75-bug-1616898
+2020-03-17 919 branched-addon-study addon-search-interventions-v2-release-73-74-bug-1619705
+2020-03-16 918 preference-rollout pref-protection-report-mobile-callout-release-75-80-bug-1619447
+2020-03-16 905 multi-preference-experiment pref-feature-impact-study-for-enhanced-tracking-protec-release-72-80-bug-1606713
+2020-03-16 907 multi-preference-experiment pref-feature-revenue-impact-study-for-enhanced-trackin-release-72-80-bug-1610655
+2020-03-12 924 show-heartbeat 
+2020-03-12 925 multi-preference-experiment pref-release-channel-test-of-quantumbar-v1-release-74-74-bug-1620410
+2020-03-12 921 multi-preference-experiment pref-activity-stream-chrome-switchers-card-for-onboard-release-73-75-bug-1621101
+2020-03-10 923 multi-preference-experiment pref-doh-trr-selection-racing-experiment-release-74-74-bug-1619770
+2020-03-09 839 preference-rollout pref-rollout-activity-stream-pkt-new-tab-release69-layout-1577008
+2020-02-24 916 show-heartbeat 
+2020-02-21 915 show-heartbeat 
+2020-02-20 913 multi-preference-experiment pref-chrome-switchers-card-for-onboarding-triplets-in-release-73-74-bug-1615344
+2020-02-19 912 show-heartbeat 
+2020-02-18 910 preference-rollout rollout-doh-beta-rollout-to-all-us-desktop-users-v2-beta-74-80-bug-1613489
+2020-02-18 904 multi-preference-experiment pref-validate-retentionengagement-impact-of-pinning-a-release-72-74-bug-1588762
+2020-02-14 911 multi-preference-experiment contextual-onboarding-for-chrome-switchers-release-73-pi-352-test
+2020-02-11 909 preference-rollout rollout-doh-nightly-rollout-to-all-us-desktop-users-nightly-74-80-bug-1613481
+2020-02-11 908 branched-addon-study addon-search-interventions-release-72-74-bug-1581260
+2020-02-05 902 branched-addon-study addon-search-tips-aka-nudges-release-72-74-bug-1603564
+2020-02-05 897 multi-preference-experiment pref-separate-search-default-in-private-browsing-release-71-73-bug-1603606
+2020-02-05 903 multi-preference-experiment activity-stream-contextual-onboarding-triplets-firefox-72-bug-1601762-v2
+2020-01-28 906 multi-preference-experiment pref-impact-of-level-2-etp-on-a-custom-distribution-release-72-80-bug-1607493
+2020-01-28 901 preference-rollout rollout-staged-rollout-in-firefox-72-release-of-add-on-release-72-72-bug-1602655
+2020-01-28 900 preference-rollout rollout-gradual-rollout-of-meta-viewport-support-in-release-72-72-bug-1594948
+2020-01-14 899 multi-preference-experiment pref-activity-stream-contextual-onboarding-experiment-release-72-73-bug-1601762
+2020-01-06 898 show-heartbeat 
+2020-01-06 885 branched-addon-study addon-doh-us-engagement-study-v4-release-70-72-bug-1599650
+2019-12-18 893 show-heartbeat 
+2019-12-16 891 show-heartbeat 
+2019-12-16 894 show-heartbeat 
+2019-12-16 895 show-heartbeat 
+2019-12-16 892 show-heartbeat 
+2019-12-16 875 branched-addon-study pref-doh-us-engagement-study-v2-helper-1590831
+2019-12-12 896 show-heartbeat 
+2019-12-11 889 multi-preference-experiment pref-activity-stream-contextual-onboarding-framework-expe-beta-72-73-bug-1601763
+2019-12-10 890 branched-addon-study addon-fingerprinting-implementation-retention-study-v1-release-69-71-bug-1595604
+2019-12-10 862 preference-rollout new-bookmark-sync-study-release-70
+2019-12-10 888 multi-preference-experiment pref-unimplemented-window-api-use-counters-in-beta-beta-72-73-bug-1600798
+2019-12-05 887 show-heartbeat 
+2019-12-02 886 show-heartbeat 
+2019-11-28 883 branched-addon-study pref-doh-us-engagement-study-v3-release-70-72-bug-1590831
+2019-11-27 857 multi-preference-experiment pref-doh-us-engagement-study-v2-release-69-71-bug-1590831
+2019-11-26 858 multi-preference-experiment pref-fingerprinting-protections-retention-study-release-70
+2019-11-26 876 multi-preference-experiment pref-activity-stream-pktnewtabh22019-70-story-card-tes-release-70-71-bug-1593002
+2019-11-26 866 preference-rollout pref-webrender-intel-rollout-70-release
+2019-11-19 879 multi-preference-experiment multi-preference-experiment-stub-attribution-test-1571777
+2019-11-18 877 show-heartbeat 
+2019-11-18 882 show-heartbeat 
+2019-11-18 881 show-heartbeat 
+2019-11-18 880 show-heartbeat 
+2019-11-18 878 branched-addon-study branched-addon-stub-attribution-test-pi-283
+2019-11-13 860 multi-preference-experiment pref-activity-stream-pktnewtabh22019-70-story-card-tes-release-70-71-bug-1593002
+2019-11-11 869 preference-experiment single-preference-stub-attribution-test-pi-283
+2019-11-11 874 addon-rollback 
+2019-11-11 873 preference-rollback 
+2019-11-11 872 branched-addon-study branched-addon-stub-attribution-test-pi-283
+2019-11-11 871 addon-rollout addon-rollout-stub-attribution-test-pi-283
+2019-11-11 870 preference-rollout preference-rollout-stub-attribution-test-pi-283
+2019-11-11 868 opt-out-study 
+2019-11-07 867 show-heartbeat 
+2019-11-05 856 multi-preference-experiment pref-add-on-blocklisting-using-remote-settings-beta-71-bug-1580353
+2019-11-02 864 console-log 
+2019-11-01 863 show-heartbeat 
+2019-10-29 861 console-log 
+2019-10-18 854 multi-preference-experiment pref-doh-us-engagement-study-release-69-70-bug-1577347-v2
+2019-10-15 850 multi-preference-experiment pref-activity-stream-pktnewtabh22019-70-story-card-smoke-tes-beta-70-bug-1582839
+2019-10-10 853 show-heartbeat 
+2019-10-09 851 console-log 
+2019-10-08 846 preference-experiment pref-activity-stream-pktnewtabh22019-ra60-v2-release-68-bug-1583648
+2019-10-08 848 multi-preference-experiment pref-activity-stream-pktnewtabh22019-70-personalization-t-release-69-bug-1582844
+2019-10-02 849 show-heartbeat 
+2019-10-01 847 multi-preference-experiment pref-unimplemented-css-use-counters-in-beta-beta-70-bug-1583396
+2019-10-01 845 branched-addon-study addon-activity-stream-search-topsites-release-69-1576277
+2019-09-24 844 preference-experiment pref-activity-stream-pktnewtabh22019-ra60-release-68-bug-1565281
+2019-09-23 805 show-heartbeat 
+2019-09-23 804 show-heartbeat 
+2019-09-23 803 show-heartbeat 
+2019-09-19 553 show-heartbeat 
+2019-09-19 531 show-heartbeat 
+2019-09-19 719 show-heartbeat 
+2019-09-19 720 show-heartbeat 
+2019-09-16 838 preference-experiment pref-activity-stream-bigsnippet-holdback-release69-157761-release-69-bug-1579914
+2019-09-15 841 preference-rollout pref-rollout-stub-attribution-test-join-privacy-1571777
+2019-09-15 842 preference-rollout pref-rollout-stub-attribution-test-sync-supercharge-1571777
+2019-09-11 840 show-heartbeat 
+2019-09-10 832 preference-experiment pref-activity-stream-pkt-new-tab-release69-layout-holdbac-release-69-bug-1577291
+2019-09-06 837 show-heartbeat 
+2019-09-06 836 show-heartbeat 
+2019-09-05 835 show-heartbeat 
+2019-09-05 834 show-heartbeat 
+2019-09-03 786 preference-rollout rollout-etp-new-users-trailhead-1547192
+2019-09-03 833 preference-experiment pref-activity-stream-bigsnippet-holdback-release69-157761-release-69-bug-1577668
+2019-08-30 746 opt-out-study 
+2019-08-28 830 show-heartbeat 
+2019-08-27 831 show-heartbeat 
+2019-08-22 829 show-heartbeat 
+2019-08-13 820 opt-out-study 
+2019-08-13 827 preference-experiment pref-activity-stream-pktnewtab-1564334-release67syndicate-release-67-bug-1564338
+2019-08-13 828 preference-experiment pref-heuristics-study-1-new-user-profile-release-68-bug-1570184
+2019-08-06 817 preference-experiment pref-fingerprinting-protections-retention-study-release-68-bug-1563309
+2019-07-31 826 preference-experiment pref-smoketest-discoverystream-pref-v1-release-67-68-bug-1568414
+2019-07-31 823 opt-out-study 
+2019-07-30 825 preference-experiment webrender-performance-tracking-study-nightly-1569972
+2019-07-30 824 preference-experiment webrender-performance-tracking-study-beta-1569972
+2019-07-30 813 preference-experiment pref-enterprise-roots-feature-holdback-study-release-68-0-bug-1562635
+2019-07-30 818 preference-experiment pref-activity-stream-pktnewtabh12019-68-2-branch-confir-release-68-0-bug-1566212
+2019-07-29 814 show-heartbeat 
+2019-07-24 822 console-log 
+2019-07-23 812 opt-out-study 
+2019-07-23 819 preference-experiment pref-webrender-amd-performance-68-release-68-0-bug-1558614
+2019-07-18 821 preference-experiment uptake-rate-test-beta-69
+2019-07-16 816 show-heartbeat 
+2019-07-09 730 preference-experiment pref-study-enterprise-roots-in-precense-of-av-release-66-1533397
+2019-07-03 455 show-heartbeat 
+2019-07-03 453 show-heartbeat 
+2019-07-03 336 show-heartbeat 
+2019-07-03 454 show-heartbeat 
+2019-07-03 451 show-heartbeat 
+2019-07-03 372 show-heartbeat 
+2019-07-03 373 show-heartbeat 
+2019-07-03 450 show-heartbeat 
+2019-07-03 452 show-heartbeat 
+2019-07-03 795 opt-out-study 
+2019-07-03 809 show-heartbeat 
+2019-07-03 811 show-heartbeat 
+2019-07-03 810 show-heartbeat 
+2019-07-03 808 show-heartbeat 
+2019-07-02 806 preference-experiment activity-stream-pktnewtab-1555451-release67syndicatedboost
+2019-07-02 802 preference-experiment activity-stream-pktnewtabh12019-release67-2-branch-confirmation-test-1557131
+2019-07-02 807 opt-out-study 
+2019-06-15 797 show-heartbeat 
+2019-06-15 801 show-heartbeat 
+2019-06-15 800 show-heartbeat 
+2019-06-15 799 show-heartbeat 
+2019-06-13 796 show-heartbeat 
+2019-06-11 784 preference-experiment pref-exp-windows-launcher-process-1528310
+2019-06-10 755 preference-rollout rollout-webrender-release-67-1541488
+2019-06-06 794 preference-experiment uptake-rate-test-beta-68
+2019-06-05 793 preference-experiment prefflip-webrender-v1-3-relaunch-1492568
+2019-06-04 765 preference-experiment activity-stream-cfr-pinned-tabs-holdback-1536650
+2019-06-04 767 preference-experiment activity-stream-cfr-pinned-tabs-treatment-1536650
+2019-06-04 785 preference-experiment activity-stream-fxa-release67-snippets-holdback-1544066
+2019-06-04 456 show-heartbeat 
+2019-06-04 787 show-heartbeat 
+2019-06-04 792 show-heartbeat 
+2019-06-04 788 show-heartbeat 
+2019-06-04 789 show-heartbeat 
+2019-06-04 791 show-heartbeat 
+2019-06-04 790 show-heartbeat 
+2019-05-29 782 show-heartbeat 
+2019-05-29 779 show-heartbeat 
+2019-05-29 778 show-heartbeat 
+2019-05-29 781 show-heartbeat 
+2019-05-29 780 show-heartbeat 
+2019-05-29 777 show-heartbeat 
+2019-05-28 783 preference-experiment pref-flip-webrender-perf67-1526094
+2019-05-28 745 preference-experiment activity-stream-pktnewtabH12019-release66layoutstest1
+2019-05-24 718 preference-rollout pref-rollout-block-autoplay-release-66-1535667
+2019-05-23 617 preference-rollout pref-rollout-activity-stream-search-shortucts-1495577
+2019-05-23 576 preference-rollout rollout-report-site-issue-beta-63-1488931
+2019-05-22 759 preference-experiment activity-stream-pktnewtabh12019-release66-confirmation-test
+2019-05-21 763 opt-out-study 
+2019-05-17 773 show-heartbeat 
+2019-05-14 776 show-heartbeat 
+2019-05-14 775 show-heartbeat 
+2019-05-14 753 preference-experiment etp-impact-on-a-custom-distribution-1543443
+2019-05-14 651 preference-experiment prefflip-webrender-v1-3-1492568
+2019-05-14 729 preference-experiment pref-flip-activity-stream-pktnewtabH12019-release66smoketest2-1539671
+2019-05-10 772 show-heartbeat 
+2019-05-10 770 show-heartbeat 
+2019-05-09 769 show-heartbeat 
+2019-05-09 768 show-heartbeat 
+2019-05-08 764 show-heartbeat 
+2019-05-06 457 preference-experiment pref-flip-activity-stream-60-release-pocket-spocs-holdback-1456585
+2019-05-06 460 preference-experiment pref-flip-activity-stream-60-release-pocket-spocs-optimization-1458310
+2019-05-06 597 preference-experiment prefflip-push-performance-1491171
+2019-05-06 754 opt-out-study 
+2019-05-04 761 opt-out-study 
+2019-05-04 760 preference-experiment hotfix-reset-xpi-verification-timestamp-1548973
+2019-05-01 740 show-heartbeat 
+2019-05-01 739 show-heartbeat 
+2019-05-01 737 show-heartbeat 
+2019-05-01 738 show-heartbeat 
+2019-05-01 736 show-heartbeat 
+2019-05-01 743 show-heartbeat 
+2019-05-01 742 show-heartbeat 
+2019-05-01 744 show-heartbeat 
+2019-05-01 741 show-heartbeat 
+2019-05-01 731 show-heartbeat 
+2019-04-25 758 show-heartbeat 
+2019-04-25 757 show-heartbeat 
+2019-04-25 756 show-heartbeat 
+2019-04-23 634 preference-rollout rollout-monitor-v2-1505837
+2019-04-23 733 opt-out-study 
+2019-04-15 751 show-heartbeat 
+2019-04-15 717 preference-experiment pref-flip-study-search-inprivate-browsing-new-tab-impact-study-66-1532374
+2019-04-12 749 show-heartbeat 
+2019-04-12 748 show-heartbeat 
+2019-04-12 750 show-heartbeat 
+2019-04-11 752 show-heartbeat 
+2019-04-10 747 preference-experiment process-priority-manager
+2019-04-08 734 opt-out-study 
+2019-04-02 732 opt-out-study 
+2019-04-01 723 opt-out-study 
+2019-04-01 722 preference-experiment prefflip-webrender-66
+2019-03-28 728 show-heartbeat 
+2019-03-27 725 preference-experiment pref-flip-activity-stream-beta66smoketest1-1535999
+2019-03-26 727 show-heartbeat 
+2019-03-25 726 opt-out-study 
+2019-03-25 695 opt-out-study 
+2019-03-25 696 opt-out-study 
+2019-03-21 721 preference-experiment hotfix-office365-legacy-keycode-and-charcode
+2019-03-18 715 opt-out-study 
+2019-03-18 716 preference-experiment pref-flip-study-firefox-quantum-bar-experiment-1-xul-vs-html-1523433
+2019-03-12 683 preference-experiment pref-flip-defaultoncookierestrictions-1523780
+2019-03-12 682 preference-experiment pref-flip-defaultoncookierestrictions-1523781
+2019-03-07 711 show-heartbeat 
+2019-03-07 708 show-heartbeat 
+2019-03-07 707 show-heartbeat 
+2019-03-07 704 show-heartbeat 
+2019-03-07 703 show-heartbeat 
+2019-03-05 714 show-heartbeat 
+2019-03-05 713 show-heartbeat 
+2019-03-04 710 show-heartbeat 
+2019-03-04 709 show-heartbeat 
+2019-03-04 706 show-heartbeat 
+2019-03-04 705 show-heartbeat 
+2019-03-04 702 show-heartbeat 
+2019-03-04 701 show-heartbeat 
+2019-03-04 700 show-heartbeat 
+2019-03-04 699 show-heartbeat 
+2019-03-04 698 preference-experiment pref-flip-study-activity-stream-pkt-newtab-beta66complexandperformance2-1529327
+2019-02-21 687 preference-rollout pref-rollout-geolocation-os-api-61-64-mac-1527748
+2019-02-21 690 preference-experiment pref-rollout-geolocation-os-api-lte-60-mac-1527748
+2019-02-21 689 preference-experiment pref-rollout-geolocation-os-api-lte-60-windows-1527748
+2019-02-21 686 preference-rollout pref-rollout-geolocation-os-api-61-64-windows-1527748
+2019-02-21 691 preference-experiment pref-rollout-geolocation-os-api-lte-60-linux-1527748
+2019-02-21 688 preference-rollout pref-rollout-geolocation-os-api-61-64-linux-1527748
+2019-02-19 697 opt-out-study 
+2019-02-19 684 preference-experiment pref-flip-activity-stream-beta66smoketest1-1524139
+2019-02-15 693 show-heartbeat 
+2019-02-15 694 show-heartbeat 
+2019-02-15 692 show-heartbeat 
+2019-02-13 685 show-heartbeat 
+2019-02-08 672 preference-experiment hotfix-disable-websockets-over-h2-65-1523978
+2019-02-08 681 show-heartbeat 
+2019-02-08 678 show-heartbeat 
+2019-02-08 680 show-heartbeat 
+2019-02-08 679 show-heartbeat 
+2019-02-08 677 show-heartbeat 
+2019-02-08 676 show-heartbeat 
+2019-02-07 675 show-heartbeat 
+2019-02-07 674 show-heartbeat 
+2019-02-05 669 show-heartbeat 
+2019-02-04 673 opt-out-study 
+2019-01-28 671 preference-experiment pref-flip-search-vol-pbm-1518393
+2019-01-18 670 show-heartbeat 
+2019-01-17 662 preference-rollout pref-rollout-activity-stream-snippets-release-1517479
+2019-01-17 637 preference-rollout pref-rollout-activity-stream-search-shortcuts-1507285
+2019-01-17 636 preference-rollout pref-rollout-activity-stream-search-shortcuts-1507237
+2019-01-17 668 show-heartbeat 
+2019-01-17 667 show-heartbeat 
+2019-01-12 665 show-heartbeat 
+2019-01-11 664 show-heartbeat 
+2019-01-11 666 show-heartbeat 
+2019-01-07 663 preference-experiment pref-flip-cert-error-pages-1501004
+2019-01-04 658 preference-experiment pref-flip-defaultoncookierestrictions-1506704
+2018-12-21 654 show-heartbeat 
+2018-12-20 661 preference-rollback 
+2018-12-19 660 preference-rollout pref-rollout-activity-stream-cfr-64-release-1512212
+2018-12-18 639 opt-out-study 
+2018-12-18 659 preference-experiment pref-flip-activity-stream-64-release-pocket-personalization-v2-1496792
+2018-12-17 656 opt-out-study 
+2018-12-17 655 opt-out-study 
+2018-12-17 638 opt-out-study 
+2018-12-17 635 opt-out-study 
+2018-12-13 657 preference-experiment pref-flip-fission-processes-1511183
+2018-12-10 652 preference-experiment pref-flip-defaultbrowser-bug1507011
+2018-12-05 653 preference-rollout pref-rollout-network-cookie-
+2018-11-29 650 preference-experiment pref-flip-adau-study-v3-1510132
+2018-11-29 649 preference-experiment pref-flip-activity-stream-content-rows-2-1504077
+2018-11-28 648 preference-experiment pref-flip-activity-stream-content-rows-1504077
+2018-11-28 646 show-heartbeat 
+2018-11-28 647 show-heartbeat 
+2018-11-27 645 opt-out-study 
+2018-11-27 643 show-heartbeat 
+2018-11-27 642 show-heartbeat 
+2018-11-27 641 show-heartbeat 
+2018-11-26 644 opt-out-study 
+2018-11-21 630 preference-experiment pref-flip-activity-stream-cfr-release-63
+2018-11-21 640 preference-experiment pref-flip-pocket-content-rows-1504077
+2018-11-13 633 opt-out-study 
+2018-11-12 626 preference-experiment pref-flip-pbm-boosts-usage-1499928-message
+2018-11-12 627 preference-experiment pref-flip-pbm-boosts-usage-1499928-control
+2018-11-12 631 show-heartbeat 
+2018-11-12 632 show-heartbeat 
+2018-11-08 629 show-heartbeat 
+2018-11-06 624 show-heartbeat 
+2018-11-06 618 opt-out-study 
+2018-11-05 623 preference-experiment pref-flip-adau-study-v2-1499488
+2018-11-02 628 show-heartbeat 
+2018-11-01 619 opt-out-study 
+2018-10-30 620 show-heartbeat 
+2018-10-30 625 opt-out-study 
+2018-10-30 621 show-heartbeat 
+2018-10-29 622 preference-experiment pref-flip-pbm-boosts-usage-1499928
+2018-10-24 610 show-heartbeat 
+2018-10-24 607 show-heartbeat 
+2018-10-23 587 preference-experiment prefflip-webrender-v1-2-1492568
+2018-10-22 598 preference-experiment pref-flip-activity-stream-search-shortcuts-part2-1495565
+2018-10-19 612 show-heartbeat 
+2018-10-19 609 show-heartbeat 
+2018-10-19 611 show-heartbeat 
+2018-10-19 608 show-heartbeat 
+2018-10-19 613 show-heartbeat 
+2018-10-19 616 preference-experiment pref-flip-dummy-pref-no-default-1500230
+2018-10-19 615 preference-experiment pref-flip-dummy-pref-default-true-1500230
+2018-10-19 614 preference-experiment pref-flip-dummy-pref-default-false-1500230
+2018-10-18 604 show-heartbeat 
+2018-10-17 606 show-heartbeat 
+2018-10-17 605 show-heartbeat 
+2018-10-16 603 show-heartbeat 
+2018-10-16 601 preference-experiment prefflip-nothingv2-reco
+2018-10-16 602 show-heartbeat 
+2018-10-10 599 show-heartbeat 
+2018-10-10 600 show-heartbeat 
+2018-10-05 596 show-heartbeat 
+2018-10-04 593 show-heartbeat 
+2018-10-04 594 show-heartbeat 
+2018-10-04 595 show-heartbeat 
+2018-10-03 592 preference-experiment pref-flip-activity-stream-cfr-1491379
+2018-10-02 591 preference-experiment prefflip-cfr-1491379
+2018-10-01 590 preference-experiment pref-flip-activity-stream-62-release-pocket-spocs-dr-1491083
+2018-09-24 589 preference-experiment prefflip-study-firefox-monitor-tag-group-1483104
+2018-09-24 588 preference-rollout rollout-firefox-monitor-1488532
+2018-09-21 584 opt-out-study 
+2018-09-21 583 opt-out-study 
+2018-09-21 582 preference-experiment prefflip-gls-key-1490454
+2018-09-19 586 show-heartbeat 
+2018-09-19 585 show-heartbeat 
+2018-09-18 577 opt-out-study 
+2018-09-14 580 show-heartbeat 
+2018-09-11 573 show-heartbeat 
+2018-09-11 572 show-heartbeat 
+2018-09-11 578 show-heartbeat 
+2018-09-11 579 show-heartbeat 
+2018-09-10 559 opt-out-study 
+2018-09-10 568 show-heartbeat 
+2018-09-10 567 show-heartbeat 
+2018-09-07 575 preference-experiment prefflip-import-reco
+2018-09-07 574 preference-experiment prefflip-sr-reco
+2018-09-07 571 preference-experiment prefflip-activity-stream-search-shortcuts-v1-1483396
+2018-09-07 570 preference-experiment prefflip-activity-stream-search-filtering-v1-1483396
+2018-09-07 569 preference-experiment prefflip-study-firefox-monitor-1488532
+2018-09-05 566 opt-out-study 
+2018-09-05 565 preference-experiment prefflip-activity-stream-simplified-onboarding-overlay-v1-0-1473580
+2018-09-05 564 show-heartbeat 
+2018-08-31 561 opt-out-study 
+2018-08-31 560 opt-out-study 
+2018-08-28 541 show-heartbeat 
+2018-08-28 550 preference-experiment prefflip-pribadg-reco
+2018-08-28 448 preference-experiment pref-flip-new-bookmark-sync-61-1456221
+2018-08-27 563 preference-experiment pref-flip-new-bookmark-sync-61-1456221-vmR
+2018-08-27 562 preference-experiment pref-flip-new-bookmark-sync-61-1456221-vpC
+2018-08-27 557 show-heartbeat 
+2018-08-27 558 show-heartbeat 
+2018-08-27 546 preference-experiment prefflip-TP-reco
+2018-08-27 547 preference-experiment prefflip-db-reco
+2018-08-27 548 preference-experiment prefflip-theme-reco
+2018-08-27 549 preference-experiment prefflip-scrnsht-reco
+2018-08-27 545 preference-experiment prefflip-FXA-reco
+2018-08-27 539 show-heartbeat 
+2018-08-27 537 show-heartbeat 
+2018-08-27 536 show-heartbeat 
+2018-08-27 534 show-heartbeat 
+2018-08-22 542 preference-rollout rollout-restart-manager-release-1481278
+2018-08-20 528 preference-experiment prefflip-simplified-onboarding-overlay-v1-0-1473580
+2018-08-20 556 show-heartbeat 
+2018-08-20 555 preference-experiment Default_Browser_Pref-Flip
+2018-08-20 554 show-heartbeat 
+2018-08-16 552 show-heartbeat 
+2018-08-15 551 preference-experiment prefflip-adau-study
+2018-08-15 535 show-heartbeat 
+2018-08-14 544 preference-experiment prefflip-reco-control
+2018-08-13 543 preference-experiment pref-flip-activity-stream-pocket-octr-bug-1476815
+2018-08-13 383 opt-out-study 
+2018-08-09 300 opt-out-study 
+2018-08-09 540 show-heartbeat 
+2018-08-09 538 show-heartbeat 
+2018-08-08 533 show-heartbeat 
+2018-08-06 532 preference-rollout rollout-restart-manager-beta-1480576
+2018-08-01 529 preference-experiment prefflip-POMTP-1476418
+2018-07-31 530 show-heartbeat 
+2018-07-31 259 opt-out-study 
+2018-07-27 525 preference-experiment prefflip-trr-v3-1475321
+2018-07-26 527 show-heartbeat 
+2018-07-25 526 preference-experiment prefflip-webrender-v1-1-1474484
+2018-07-25 524 preference-experiment prefflip-trr-v2-1475321
+2018-07-25 520 preference-experiment pref-flip-activity-stream-63-nightly-pocket-spocs-cachetest-1477083
+2018-07-25 523 show-heartbeat 
+2018-07-24 522 show-heartbeat 
+2018-07-23 521 opt-out-study 
+2018-07-23 492 preference-experiment pref-flip-savant-1457226-de-existing-users
+2018-07-23 489 preference-experiment pref-flip-savant-1457226-en-new-users
+2018-07-23 490 preference-experiment pref-flip-savant-1457226-de-new-users
+2018-07-23 491 preference-experiment pref-flip-savant-1457226-en-existing-users
+2018-07-23 517 show-heartbeat 
+2018-07-23 518 show-heartbeat 
+2018-07-20 515 show-heartbeat 
+2018-07-20 516 preference-experiment prefflip-webrender-1474484
+2018-07-16 477 preference-experiment prefflip-hotfix-trr-1446404
+2018-07-16 483 preference-rollout rollout-rdl
+2018-07-16 493 preference-experiment pref-hotfix-tls-13-avast-rollback
+2018-07-16 513 show-heartbeat 
+2018-07-16 514 show-heartbeat 
+2018-07-16 501 preference-rollout rollout-release-61-tls-fallback-1-3
+2018-07-13 512 preference-experiment prefflip-trr-countOUT-1446404
+2018-07-13 511 preference-experiment prefflip-trr-countIN-1446404
+2018-07-12 488 opt-out-study 
+2018-07-12 487 opt-out-study 
+2018-07-12 486 opt-out-study 
+2018-07-12 485 opt-out-study 
+2018-07-12 484 opt-out-study 
+2018-07-11 510 show-heartbeat 
+2018-07-11 509 preference-experiment hotfix-omtp-61-osx-10-9-pt3-bug-1472308
+2018-07-11 502 preference-experiment hotfix-omtp-61-osx-10-9-pt2-bug-1472308
+2018-07-10 508 show-heartbeat 
+2018-07-10 505 show-heartbeat 
+2018-07-10 507 show-heartbeat 
+2018-07-10 506 show-heartbeat 
+2018-07-10 504 show-heartbeat 
+2018-07-10 503 preference-experiment hotfix-http-throttling-v2-bug-1462906
+2018-07-09 468 show-heartbeat 
+2018-07-06 499 show-heartbeat 
+2018-07-06 497 opt-out-study 
+2018-07-05 498 preference-experiment pref-flip-accessibility-inspector-1465195
+2018-07-02 496 opt-out-study 
+2018-06-29 495 preference-experiment hotfix-omtp-61-osx-10-9-bug-1472308
+2018-06-28 494 opt-out-study 
+2018-06-14 479 preference-experiment pref-flip-activity-stream-61-beta-snippets-router-1463491
+2018-06-07 482 show-heartbeat 
+2018-06-07 481 show-heartbeat 
+2018-06-07 480 show-heartbeat 
+2018-06-05 478 show-heartbeat 
+2018-06-05 472 opt-out-study 
+2018-06-05 473 opt-out-study 
+2018-06-05 475 opt-out-study 
+2018-06-05 474 opt-out-study 
+2018-06-05 476 opt-out-study 
+2018-05-31 471 preference-rollout rollout-tls-fallback-1-3
+2018-05-29 469 preference-experiment pref-flip-tabthrobber-30fps-1462158
+2018-05-29 470 preference-experiment pref-flip-tabthrobber-20fps-1462158
+2018-05-21 467 preference-experiment pref-flip-devtools-onboarding-1441756
+2018-05-18 466 show-heartbeat 
+2018-05-18 465 show-heartbeat 
+2018-05-18 464 show-heartbeat 
+2018-05-18 463 show-heartbeat 
+2018-05-17 462 show-heartbeat 
+2018-05-16 461 show-heartbeat 
+2018-05-08 459 show-heartbeat 
+2018-05-07 458 show-heartbeat 
+2018-05-04 449 opt-out-study 
+2018-04-23 429 preference-experiment pref-flip-timer-speed-up-60-1443940
+2018-04-20 447 show-heartbeat 
+2018-04-19 446 show-heartbeat 
+2018-04-07 440 opt-out-study 
+2018-04-06 442 show-heartbeat 
+2018-04-06 441 show-heartbeat 
+2018-04-03 431 preference-experiment pref-flip-timer-speed-up-59-1443940
+2018-04-03 445 show-heartbeat 
+2018-04-03 444 show-heartbeat 
+2018-04-03 443 show-heartbeat 
+2018-04-02 439 preference-experiment pref-flip-activity-stream-60-beta-wide-layout-bug-1443649
+2018-04-02 435 opt-out-study 
+2018-04-02 436 opt-out-study 
+2018-03-20 438 show-heartbeat 
+2018-03-20 437 preference-experiment pref-flip-as-wide-layout-beta-1443649
+2018-03-19 428 opt-out-study 
+2018-03-15 434 show-heartbeat 
+2018-03-15 433 show-heartbeat 
+2018-03-15 432 show-heartbeat 
+2018-03-08 426 opt-out-study 
+2018-03-07 425 show-heartbeat 
+2018-03-02 427 show-heartbeat 
+2018-02-27 424 show-heartbeat 
+2018-02-27 423 show-heartbeat 
+2018-02-27 422 show-heartbeat 
+2018-02-27 421 show-heartbeat 
+2018-02-27 420 show-heartbeat 
+2018-02-26 419 show-heartbeat 
+2018-02-26 418 opt-out-study 
+2018-02-21 415 show-heartbeat 
+2018-02-20 416 preference-experiment pref-flip-http-response-throttling-algo-v2-beta-1434388
+2018-02-20 417 preference-experiment pref-flip-tracker-request-beta-1434379
+2018-02-20 414 preference-experiment normandy-enrollment-events-test-1
+2018-02-14 408 show-heartbeat 
+2018-02-14 411 show-heartbeat 
+2018-02-14 413 show-heartbeat 
+2018-02-12 412 preference-experiment pref-flip-activity-stream-59-release-pocket-sponsored-stories-bug-1435822
+2018-02-09 410 show-heartbeat 
+2018-02-08 409 show-heartbeat 
+2018-02-02 345 preference-experiment pref-flip-search-unification-57-release-1413565
+2018-01-30 407 preference-experiment pref-flip-a11y-visual-indicator-1412603
+2018-01-29 406 preference-experiment pref-flip-activity-stream-59-beta-pocket-sponsored-stories-bug-1432989
+2018-01-23 220 preference-experiment pref-flip-screenshots-release-1369150
+2018-01-11 405 show-heartbeat 
+2018-01-09 404 preference-experiment pref-flip-activity-stream-58-beta-pocket-personalization-bug-1425490
+2017-12-15 403 opt-out-study 
+2017-12-14 402 preference-experiment reduce-log-submission-interval-2
+2017-12-14 401 preference-experiment reduce-log-submission-interval-1
+2017-12-12 400 opt-out-study 
+2017-12-12 399 show-heartbeat 
+2017-12-08 395 show-heartbeat 
+2017-12-08 398 show-heartbeat 
+2017-12-08 397 show-heartbeat 
+2017-12-08 396 show-heartbeat 
+2017-12-08 394 show-heartbeat 
+2017-12-08 393 opt-out-study 
+2017-12-08 385 show-heartbeat 
+2017-12-08 392 show-heartbeat 
+2017-12-08 391 show-heartbeat 
+2017-12-08 390 show-heartbeat 
+2017-12-08 389 show-heartbeat 
+2017-12-07 388 opt-out-study 
+2017-12-04 387 show-heartbeat 
+2017-12-04 386 preference-experiment pref-flip-retained-display-beta-bug-1416975
+2017-11-30 384 opt-out-study 
+2017-11-30 382 show-heartbeat 
+2017-11-30 381 show-heartbeat 
+2017-11-30 371 opt-out-study 
+2017-11-30 380 show-heartbeat 
+2017-11-29 379 show-heartbeat 
+2017-11-29 374 show-heartbeat 
+2017-11-29 375 show-heartbeat 
+2017-11-29 378 opt-out-study 
+2017-11-29 358 show-heartbeat 
+2017-11-29 377 preference-experiment pref-flip-a11y-release-1383051
+2017-11-28 359 show-heartbeat 
+2017-11-21 281 opt-out-study 
+2017-11-21 370 show-heartbeat 
+2017-11-21 311 preference-experiment pref-flip-autofill-release-1405217-2-2
+2017-11-21 223 preference-experiment pref-flip-quantum-css-stylo-beta-1381147
+2017-11-21 203 preference-experiment pref-flip-quantum-css-style-r1-1381147
+2017-11-17 302 opt-out-study 
+2017-11-17 305 opt-out-study 
+2017-11-13 364 preference-experiment pref-flip-activity-stream-57-release-enabled-existing-users-bug-1415966
+2017-11-13 369 show-heartbeat 
+2017-11-13 368 show-heartbeat 
+2017-11-13 367 show-heartbeat 
+2017-11-13 366 show-heartbeat 
+2017-11-13 365 show-heartbeat 
+2017-11-13 332 show-heartbeat 
+2017-11-13 363 preference-experiment pref-flip-activity-stream-57-release-enabled-new-users-bug-1415967
+2017-11-13 346 preference-experiment pref-flip-search-composition-57-release-1413565
+2017-11-13 362 preference-experiment PCD-Test-2g
+2017-11-13 361 preference-experiment PCD-Test-2f
+2017-11-11 360 preference-experiment PCD-Test-2e
+2017-11-10 357 preference-experiment PCD-Test-2d
+2017-11-10 356 preference-experiment PCD-Test-2c
+2017-11-10 354 preference-experiment PCD-Test-2b
+2017-11-10 355 preference-experiment PCD-Test-2a
+2017-11-09 352 preference-experiment PCD-Test
+2017-11-09 350 show-heartbeat 
+2017-11-09 351 show-heartbeat 
+2017-11-08 349 show-heartbeat 
+2017-11-07 343 show-heartbeat 
+2017-11-07 344 show-heartbeat 
+2017-11-07 348 show-heartbeat 
+2017-11-07 347 show-heartbeat 
+2017-11-07 333 show-heartbeat 
+2017-11-07 331 show-heartbeat 
+2017-11-07 330 show-heartbeat 
+2017-11-07 329 show-heartbeat 
+2017-11-07 328 show-heartbeat 
+2017-11-02 340 opt-out-study 
+2017-11-02 342 show-heartbeat 
+2017-11-02 341 show-heartbeat 
+2017-11-01 338 show-heartbeat 
+2017-11-01 337 show-heartbeat 
+2017-11-01 339 show-heartbeat 
+2017-10-31 335 show-heartbeat 
+2017-10-31 334 show-heartbeat 
+2017-10-31 327 show-heartbeat 
+2017-10-31 326 preference-experiment pref-flip-activity-stream-58-nightly-optimized-pocket-personalization-bug-1410483
+2017-10-31 325 preference-experiment pref-flip-activity-stream-57-beta-two-rows-user-pref-bug-1411695
+2017-10-31 324 opt-out-study 
+2017-10-26 321 preference-experiment pref-flip-activity-stream-57-beta-two-rows-bug-1411695
+2017-10-26 317 show-heartbeat 
+2017-10-26 316 show-heartbeat 
+2017-10-24 314 show-heartbeat 
+2017-10-24 318 show-heartbeat 
+2017-10-24 319 show-heartbeat 
+2017-10-24 313 show-heartbeat 
+2017-10-24 295 opt-out-study 
+2017-10-24 312 preference-experiment pref-flip-activity-stream-57-beta-enabled-bug-1410535
+2017-10-24 320 show-heartbeat 
+2017-10-23 315 show-heartbeat 
+2017-10-20 307 preference-experiment pref-flip-autofill-release-1405217
+2017-10-20 309 preference-experiment pref-flip-activity-stream-57-beta-snippet-1409201
+2017-10-20 308 show-heartbeat 
+2017-10-19 306 show-heartbeat 
+2017-10-18 303 show-heartbeat 
+2017-10-18 304 show-heartbeat 
+2017-10-18 292 opt-out-study 
+2017-10-18 291 opt-out-study 
+2017-10-17 280 opt-out-study 
+2017-10-16 285 opt-out-study 
+2017-10-16 301 opt-out-study 
+2017-10-11 299 show-heartbeat 
+2017-10-11 298 show-heartbeat 
+2017-10-11 297 show-heartbeat 
+2017-10-11 296 show-heartbeat 
+2017-10-11 262 show-heartbeat 
+2017-10-11 293 preference-experiment pref-flip-searchcomp5-pref3-1407039
+2017-10-11 294 preference-experiment pref-flip-searchcomp5-pref1-1407039
+2017-10-10 290 preference-experiment pref-flip-activity-stream-58-nightly-about-home-bug-1406513
+2017-10-10 287 preference-experiment tracking-protection-ui-release-1400980
+2017-10-10 288 show-heartbeat 
+2017-10-10 289 show-heartbeat 
+2017-10-10 269 show-heartbeat 
+2017-10-10 267 show-heartbeat 
+2017-10-09 276 show-heartbeat 
+2017-10-05 286 preference-experiment pref-flip-activity-stream-58-nightly-pocket-personalization-bug-1400890
+2017-10-05 275 show-heartbeat 
+2017-10-04 246 show-heartbeat 
+2017-10-03 283 preference-experiment pref-flip-activity-stream-56-beta-about-home-bug-1405334
+2017-10-03 284 preference-experiment pref-flip-activity-stream-56-release-bug-1405332
+2017-10-03 282 show-heartbeat 
+2017-10-02 279 opt-out-study 
+2017-10-01 278 opt-out-study 
+2017-10-01 277 opt-out-study 
+2017-09-29 263 show-heartbeat 
+2017-09-29 264 show-heartbeat 
+2017-09-29 265 show-heartbeat 
+2017-09-29 266 show-heartbeat 
+2017-09-28 274 preference-experiment search-hijack-release-1
+2017-09-28 273 preference-experiment session-restore-release-1-1400942
+2017-09-28 258 preference-experiment search-defaults-release-1
+2017-09-28 272 show-heartbeat 
+2017-09-28 271 show-heartbeat 
+2017-09-27 268 show-heartbeat 
+2017-09-27 270 preference-experiment foreground-tracker-beta-1391450
+2017-09-26 251 preference-experiment as-nightly-personalization-1400890
+2017-09-25 232 opt-out-study 
+2017-09-25 224 show-heartbeat 
+2017-09-25 202 preference-experiment pref-flip-layframe-1370253
+2017-09-25 254 preference-experiment pref-flip-activity-stream-beta-1389722-v2-3-round2
+2017-09-25 253 preference-experiment pref-flip-activity-stream-beta-1389722-v2-2-round2
+2017-09-25 252 preference-experiment pref-flip-activity-stream-beta-1389722-v2-round2
+2017-09-22 222 show-heartbeat 
+2017-09-20 255 show-heartbeat 
+2017-09-19 257 opt-out-study 
+2017-09-19 256 preference-experiment shield-unenroll-test-bug-1399936
+2017-09-19 250 show-heartbeat 
+2017-09-19 230 opt-out-study 
+2017-09-19 241 show-heartbeat 
+2017-09-15 249 opt-out-study 
+2017-09-15 248 preference-experiment pref-flip-activity-stream-beta-1389722-v2-3
+2017-09-14 218 preference-experiment pref-flip-searchcomp1-pref3-1390584
+2017-09-14 217 preference-experiment pref-flip-searchcomp1-pref2-1390584
+2017-09-14 216 preference-experiment pref-flip-searchcomp1-pref1-1390584
+2017-09-14 245 preference-experiment pref-flip-activity-stream-beta-1389722-v2-2
+2017-09-14 233 show-heartbeat 
+2017-09-14 234 show-heartbeat 
+2017-09-14 235 show-heartbeat 
+2017-09-14 236 show-heartbeat 
+2017-09-14 238 show-heartbeat 
+2017-09-14 239 show-heartbeat 
+2017-09-14 240 show-heartbeat 
+2017-09-14 242 show-heartbeat 
+2017-09-14 244 show-heartbeat 
+2017-09-14 237 show-heartbeat 
+2017-09-14 243 show-heartbeat 
+2017-09-13 231 preference-experiment tracking-protection-release-1397418
+2017-09-13 247 preference-experiment onboarding-tour-release-1388678
+2017-09-08 221 preference-experiment pref-flip-activity-stream-beta-1389722-v2-2
+2017-09-05 210 show-heartbeat 
+2017-08-31 229 show-heartbeat 
+2017-08-31 228 show-heartbeat 
+2017-08-31 227 show-heartbeat 
+2017-08-30 226 preference-experiment nightly-nothing-burger-1-pref
+2017-08-30 225 opt-out-study 
+2017-08-21 204 show-heartbeat 
+2017-08-17 219 preference-experiment qa-test-pref-flip-searchcomp1-pref1-1390584
+2017-08-15 201 show-heartbeat 
+2017-08-15 215 preference-experiment pref-flip-shutdowndecoder-1380584
+2017-08-14 213 show-heartbeat 
+2017-08-14 212 show-heartbeat 
+2017-08-10 211 show-heartbeat 
+2017-08-09 214 show-heartbeat 
+2017-08-09 39 show-heartbeat 
+2017-08-08 205 show-heartbeat 
+2017-08-02 209 show-heartbeat 
+2017-08-02 208 show-heartbeat 
+2017-07-27 207 show-heartbeat 
+2017-07-26 206 preference-experiment pref-flip-rcwn2-1381816
+2017-07-13 200 preference-experiment pref-flip-screenshots-1369150
+2017-07-06 199 preference-experiment pref-flip-jsbc-1373241
+2017-07-05 196 show-heartbeat 
+2017-06-27 198 preference-experiment pref-flip-rcwn-1367951
+2017-06-26 101 show-heartbeat 
+2017-06-22 195 show-heartbeat 
+2017-06-22 194 show-heartbeat 
+2017-06-22 193 show-heartbeat 
+2017-06-22 192 show-heartbeat 
+2017-06-13 191 show-heartbeat 
+2017-06-13 190 show-heartbeat 
+2017-06-13 182 show-heartbeat 
+2017-06-08 188 show-heartbeat 
+2017-06-08 187 show-heartbeat 
+2017-06-08 189 show-heartbeat 
+2017-06-07 185 show-heartbeat 
+2017-06-05 171 show-heartbeat 
+2017-06-05 170 show-heartbeat 
+2017-06-05 169 show-heartbeat 
+2017-06-05 168 show-heartbeat 
+2017-06-05 167 show-heartbeat 
+2017-06-05 166 show-heartbeat 
+2017-06-05 161 show-heartbeat 
+2017-06-01 184 preference-experiment shield-public-infobar-display-bug1368141
+2017-05-30 183 show-heartbeat 
+2017-05-25 181 show-heartbeat 
+2017-05-25 178 show-heartbeat 
+2017-05-25 179 show-heartbeat 
+2017-05-25 180 show-heartbeat 
+2017-05-25 176 show-heartbeat 
+2017-05-25 175 show-heartbeat 
+2017-05-25 174 show-heartbeat 
+2017-05-25 173 show-heartbeat 
+2017-05-23 85 show-heartbeat 
+2017-05-23 172 preference-experiment shield-lazy-client-classify
+2017-05-17 165 show-heartbeat 
+2017-05-16 129 show-heartbeat 
+2017-05-08 164 show-heartbeat 
+2017-05-08 163 show-heartbeat 
+2017-05-05 162 preference-experiment pref-flip-test-nightly-1
+2017-04-29 160 show-heartbeat 
+2017-04-29 159 show-heartbeat 
+2017-04-29 158 show-heartbeat 
+2017-04-29 157 show-heartbeat 
+2017-04-29 117 show-heartbeat 
+2017-04-20 155 show-heartbeat 
+2017-04-20 156 show-heartbeat 
+2017-04-12 26 console-log 
+2017-04-11 154 show-heartbeat 
+2017-04-11 152 show-heartbeat 
+2017-04-11 153 show-heartbeat 
+2017-04-11 151 show-heartbeat 
+2017-04-11 150 show-heartbeat 
+2017-04-11 149 show-heartbeat 
+2017-04-11 148 show-heartbeat 
+2017-04-03 137 show-heartbeat 
+2017-03-30 147 show-heartbeat 
+2017-03-30 146 show-heartbeat 
+2017-03-30 145 show-heartbeat 
+2017-03-30 144 show-heartbeat 
+2017-03-30 143 show-heartbeat 
+2017-03-30 142 show-heartbeat 
+2017-03-27 139 show-heartbeat 
+2017-03-27 138 show-heartbeat 
+2017-03-27 120 show-heartbeat 
+2017-03-27 119 show-heartbeat 
+2017-03-20 133 show-heartbeat 
+2017-03-20 135 show-heartbeat 
+2017-03-20 136 show-heartbeat 
+2017-03-20 134 show-heartbeat 
+2017-03-20 132 show-heartbeat 
+2017-03-20 130 show-heartbeat 
+2017-03-20 131 show-heartbeat 
+2017-02-28 69 show-heartbeat 
+2017-02-21 128 show-heartbeat 
+2017-02-21 127 show-heartbeat 
+2017-02-21 126 show-heartbeat 
+2017-02-21 125 show-heartbeat 
+2017-02-21 124 show-heartbeat 
+2017-02-21 123 show-heartbeat 
+2017-02-16 122 show-heartbeat 
+2017-02-16 37 show-heartbeat 
+2017-02-07 86 show-heartbeat 
+2017-02-02 36 show-heartbeat 
+2017-02-02 42 show-heartbeat 
+2017-02-02 118 console-log 
+2017-02-01 47 show-heartbeat 
+2017-02-01 56 show-heartbeat 
+2017-02-01 49 show-heartbeat 
+2017-02-01 48 show-heartbeat 
+2017-02-01 50 show-heartbeat 
+2017-02-01 116 show-heartbeat 
+2017-02-01 53 show-heartbeat 
+2017-02-01 55 show-heartbeat 
+2017-02-01 54 show-heartbeat 
+2017-02-01 43 show-heartbeat 
+2017-02-01 45 show-heartbeat 
+2017-02-01 46 show-heartbeat 
+2017-02-01 57 show-heartbeat 
+2017-01-10 115 show-heartbeat 
+2017-01-03 114 show-heartbeat 
+2016-12-23 100 show-heartbeat 
+2016-12-23 99 show-heartbeat 
+2016-12-23 98 show-heartbeat 
+2016-12-23 97 show-heartbeat 
+2016-12-23 96 show-heartbeat 
+2016-12-23 95 show-heartbeat 
+2016-12-23 94 show-heartbeat 
+2016-12-23 93 show-heartbeat 
+2016-12-23 92 show-heartbeat 
+2016-12-23 91 show-heartbeat 
+2016-12-23 90 show-heartbeat 
+2016-12-23 89 show-heartbeat 
+2016-12-23 88 show-heartbeat 
+2016-12-23 87 show-heartbeat 
+2016-12-08 113 show-heartbeat 
+2016-12-08 112 show-heartbeat 
+2016-12-08 111 show-heartbeat 
+2016-12-08 110 show-heartbeat 
+2016-12-08 109 show-heartbeat 
+2016-12-08 108 show-heartbeat 
+2016-12-08 107 show-heartbeat 
+2016-12-08 106 show-heartbeat 
+2016-12-08 105 show-heartbeat 
+2016-12-08 104 show-heartbeat 
+2016-12-08 103 show-heartbeat 
+2016-12-08 102 show-heartbeat 
+2016-11-30 84 show-heartbeat 
+2016-11-30 83 show-heartbeat 
+2016-11-30 82 show-heartbeat 
+2016-11-30 81 show-heartbeat 
+2016-11-30 80 show-heartbeat 
+2016-11-30 79 show-heartbeat 
+2016-11-30 78 show-heartbeat 
+2016-11-30 77 show-heartbeat 
+2016-11-30 76 show-heartbeat 
+2016-11-30 75 show-heartbeat 
+2016-11-30 74 show-heartbeat 
+2016-11-30 73 show-heartbeat 
+2016-11-29 71 show-heartbeat 
+2016-11-29 70 show-heartbeat 

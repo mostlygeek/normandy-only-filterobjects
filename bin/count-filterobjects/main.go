@@ -1,14 +1,12 @@
 package main
 
 import (
-	"bytes"
 	"fmt"
-	"net/http"
 	"strings"
 	"sync"
 
 	"github.com/buger/jsonparser"
-	"github.com/pkg/errors"
+	"github.com/mostlygeek/normandy-tools/tools"
 )
 
 // downloads all the current recipes and count the ones that are only filter expressions
@@ -36,28 +34,6 @@ func init() {
 	todo = make(chan string, 10)
 }
 
-func get(url string) ([]byte, error) {
-	resp, err := http.Get(url)
-	if err != nil {
-		return nil, err
-	}
-
-	if resp.Body == nil {
-		return nil, errors.New("Empty Body")
-	}
-
-	if resp.StatusCode != 200 {
-		return nil, errors.Errorf("Response Code is %d", resp.StatusCode)
-	}
-
-	var buf bytes.Buffer
-	if _, err := buf.ReadFrom(resp.Body); err != nil {
-		return nil, err
-	}
-
-	return buf.Bytes(), nil
-}
-
 func process(body []byte) error {
 	m.Lock()
 	defer m.Unlock()
@@ -79,7 +55,7 @@ func process(body []byte) error {
 		created, err := jsonparser.GetString(value, "latest_revision", "updated")
 		if err != nil {
 			fmt.Println("Iteration error", err.Error())
-		} else if !strings.Contains(created, "2019") && !strings.Contains(created, "2020") {
+		} else if !strings.Contains(created, "2018") && !strings.Contains(created, "2019") && !strings.Contains(created, "2020") {
 			return
 		}
 
@@ -113,7 +89,8 @@ func process(body []byte) error {
 
 func main() {
 	// fetch the base url to determine records and total count
-	b, err := get(baseUrl)
+	fmt.Printf("!! Using cache dir: %s, remove it to clear http cache\n", tools.Cachedir())
+	b, err := tools.Get(baseUrl)
 	if err != nil {
 		fmt.Println(err.Error())
 		return
@@ -144,7 +121,7 @@ func main() {
 						return
 					}
 
-					body, err := get(url)
+					body, err := tools.Get(url)
 					if err != nil {
 						fmt.Println(url, err)
 						return
@@ -177,7 +154,7 @@ func main() {
 			fmt.Println("===================")
 		}
 		// ugly way to print things in a sorted month order
-		for y := 2019; y <= 2020; y++ {
+		for y := 2018; y <= 2020; y++ {
 			for m := 1; m <= 12; m++ {
 				key := fmt.Sprintf("%d-%02d", y, m)
 				if stat, ok := statListToUse[key]; ok {
