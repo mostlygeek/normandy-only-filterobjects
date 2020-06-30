@@ -26,11 +26,13 @@ type stats struct {
 var (
 	m        sync.Mutex
 	statList map[string]*stats
+	statHB   map[string]*stats
 	todo     chan string
 )
 
 func init() {
 	statList = make(map[string]*stats)
+	statHB = make(map[string]*stats)
 	todo = make(chan string, 10)
 }
 
@@ -62,10 +64,15 @@ func process(body []byte) error {
 
 	jsonparser.ArrayEach(body, func(value []byte, dataType jsonparser.ValueType, offset int, err error) {
 
+		// separate Experiment and Heartbeat stats, reassign later depending on experiment type
+		useStats := statList
+
 		// Exclude heartbeat/console-log action types
 		actionType, _ := jsonparser.GetString(value, "latest_revision", "action", "name")
-		if actionType == "show-heartbeat" || actionType == "console-log" {
+		if actionType == "console-log" {
 			return
+		} else if actionType == "show-heartbeat" {
+			useStats = statHB
 		}
 
 		// only do 2019, 2020 records
@@ -77,10 +84,10 @@ func process(body []byte) error {
 		}
 
 		key := created[0:7]
-		stat, ok := statList[key]
+		stat, ok := useStats[key]
 		if !ok { // create it if it doesn't exist
 			stat = &stats{}
-			statList[key] = stat
+			useStats[key] = stat
 		}
 
 		// an *exclusively* filter_object recipe should:
@@ -158,15 +165,27 @@ func main() {
 
 	wg.Wait()
 
-	// ugly way to print things in a sorted month order
-	for y := 2019; y <= 2020; y++ {
-		for m := 1; m <= 12; m++ {
-			key := fmt.Sprintf("%d-%02d", y, m)
-			if stat, ok := statList[key]; ok {
-				fmt.Printf("%s: Total: % 3d, Has FO: % 3d (%6.2f%%), FO only: % 3d (%6.2f%%)\n", key,
-					stat.count,
-					stat.usesFO, float64(stat.usesFO)/float64(stat.count)*100,
-					stat.onlyFO, float64(stat.onlyFO)/float64(stat.count)*100)
+	for _, statToUse := range []string{"experiment", "heartbeat"} {
+		var statListToUse map[string]*stats
+		if statToUse == "experiment" {
+			statListToUse = statList
+			fmt.Println("Experiments")
+			fmt.Println("===================")
+		} else {
+			statListToUse = statHB
+			fmt.Println("Heartbeat")
+			fmt.Println("===================")
+		}
+		// ugly way to print things in a sorted month order
+		for y := 2019; y <= 2020; y++ {
+			for m := 1; m <= 12; m++ {
+				key := fmt.Sprintf("%d-%02d", y, m)
+				if stat, ok := statListToUse[key]; ok {
+					fmt.Printf("%s: Total: % 3d, Has FO: % 3d (%6.2f%%), FO only: % 3d (%6.2f%%)\n", key,
+						stat.count,
+						stat.usesFO, float64(stat.usesFO)/float64(stat.count)*100,
+						stat.onlyFO, float64(stat.onlyFO)/float64(stat.count)*100)
+				}
 			}
 		}
 	}
