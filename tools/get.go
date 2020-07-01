@@ -2,47 +2,57 @@ package tools
 
 import (
 	"bytes"
+	"crypto/md5"
+	"encoding/hex"
 	"fmt"
+	"io"
+	"io/ioutil"
 	"net/http"
 	"os"
 
-	"github.com/gregjones/httpcache"
-	"github.com/gregjones/httpcache/diskcache"
 	"github.com/pkg/errors"
 )
 
-var (
-	hclient  http.Client
-	cachedir string
+const (
+	cachedir = "/tmp/normandy-tools-cache/"
 )
 
 func init() {
-
-	cachedir = "/tmp/normandy-tools-cache/"
 
 	// just make sure its there
 	if err := os.Mkdir(cachedir, 0755); err != nil && !os.IsExist(err) {
 		fmt.Println("MKDIR err: ", err.Error())
 	}
 
-	cache := diskcache.New(cachedir)
-	tp := httpcache.NewTransport(cache)
+}
 
-	hclient = http.Client{
-		Transport: tp,
-	}
+func cachefilename(url string) string {
+	h := md5.New()
+	io.WriteString(h, url)
+	return cachedir + hex.EncodeToString(h.Sum(nil))
+}
 
+func cacheget(url string) ([]byte, bool) {
+	data, err := ioutil.ReadFile(cachefilename(url))
+	return data, (err == nil)
+}
+
+func cachewrite(url string, data []byte) error {
+	return ioutil.WriteFile(cachefilename(url), data, 0644)
 }
 
 func Cachedir() string { return cachedir }
 func Get(url string) ([]byte, error) {
-	resp, err := hclient.Get(url)
+
+	// attempt to get from cache
+	if body, ok := cacheget(url); ok {
+		return body, nil
+	}
+
+	resp, err := http.Get(url)
 	if err != nil {
 		return nil, err
 	}
-
-	//fromCache := resp.Header.Get("X-From-Cache")
-	//fmt.Println(url, "cached:", fromCache)
 
 	if resp.Body == nil {
 		return nil, errors.New("Empty Body")
@@ -57,5 +67,12 @@ func Get(url string) ([]byte, error) {
 		return nil, err
 	}
 
-	return buf.Bytes(), nil
+	body := buf.Bytes()
+
+	if err := cachewrite(url, body); err != nil {
+		// whatever, good enough for the cli apps :D
+		fmt.Println("Unable to cache body", err.Error())
+	}
+
+	return body, nil
 }
