@@ -18,7 +18,7 @@ var (
 
 func init() {
 
-	cachedir = "/tmp/normandy-tools-cache"
+	cachedir = "/tmp/normandy-tools-cache/"
 
 	// just make sure its there
 	if err := os.Mkdir(cachedir, 0755); err != nil && !os.IsExist(err) {
