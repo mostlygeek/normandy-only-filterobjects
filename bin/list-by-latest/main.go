@@ -12,42 +12,24 @@ func main() {
 	baseUrl := "https://normandy.cdn.mozilla.net/api/v3/recipe/"
 	next := baseUrl + "?ordering=latest_revision"
 
-	for {
-		if next == "" {
-			break
-		}
-
-		//fmt.Println("Fetching:", next)
-		// hmm
-		body, err := tools.Get(next)
+	tools.WalkAPI(next, func(record []byte) error {
+		id, err := jsonparser.GetInt(record, "id")
 		if err != nil {
-			fmt.Println(err.Error())
-			return
+			fmt.Println("Error extracting id: ", err.Error())
+			return nil
 		}
 
-		next, err = jsonparser.GetString(body, "next")
+		created, err := jsonparser.GetString(record, "latest_revision", "date_created")
 		if err != nil {
-			break
+			fmt.Println("Iteration error", err.Error())
+			return nil
 		}
 
-		jsonparser.ArrayEach(body, func(value []byte, dataType jsonparser.ValueType, offset int, err error) {
-			id, err := jsonparser.GetInt(value, "id")
-			if err != nil {
-				fmt.Println("Error extracting id: ", err.Error())
-				return
-			}
+		// Filter out all the heartbeat messages
+		actionType, _ := jsonparser.GetString(record, "latest_revision", "action", "name")
+		slug, _ := jsonparser.GetString(record, "latest_revision", "arguments", "slug")
+		fmt.Println(created[0:10], id, actionType, slug)
 
-			created, err := jsonparser.GetString(value, "latest_revision", "date_created")
-			if err != nil {
-				fmt.Println("Iteration error", err.Error())
-				return
-			}
-
-			// Filter out all the heartbeat messages
-			actionType, _ := jsonparser.GetString(value, "latest_revision", "action", "name")
-			slug, _ := jsonparser.GetString(value, "latest_revision", "arguments", "slug")
-			fmt.Println(created[0:10], id, actionType, slug)
-
-		}, "results")
-	}
+		return nil
+	})
 }
